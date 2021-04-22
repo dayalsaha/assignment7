@@ -1,0 +1,385 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------------------header section start---------------------------------*/ 
+
+header{
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 15px 0;
+    border-bottom: 5px solid #e4e4e4;
+  
+}
+
+.nav-link{
+   
+    margin: 0 15px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.nav-link:hover{
+    color: #fafd17;
+    text-decoration: none;
+}
+
+
+/*---------------------------------------------header section close---------------------------------*/ 
+
+/*-------------------------------------------------------hero section start--------------------------*/ 
+
+
+    .hero{
+        float: left;
+        width: 100%;
+        padding: 27px 0;
+        background: #ef4035;
+    }
+
+
+    .left-content{
+        margin-top: 3%;
+    }
+
+    .left-content h1 {
+        color: white;
+        font-weight: 500;
+    }
+
+    .left-content p {
+        color: white;
+        font-size: 17px;
+        width: 638px;
+    }
+
+    .car-img img {
+        width: 638px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+
+    .rect-img img {
+        margin-top: 13%;
+        width: 280px;
+    }
+
+    .input-btn {
+        color: white;
+        text-decoration: none;
+        margin-top: 38%;
+        display: inline-block;
+        font-size: 30px;
+        font-family: initial;
+    }
+
+    .input-btn:hover{
+        color: white;
+        text-decoration: none;
+    }
+
+
+.form-control {
+    background-color: #ff6258;
+    padding: 1.5rem 2.5rem;
+    border: none;
+    margin-top: 2%;
+}
+
+.form-control:focus {
+    background-color: #ff6258;
+   
+}
+
+.form-group{
+    color:white; 
+}
+/*-------------------------------------------------------hero section close--------------------------*/ 
+
+
+
+
+/*-------------------------------------------------------footer section start--------------------------*/ 
+
+footer{
+    float: left;
+    width: 100%;
+    background: #ef4035;
+    padding: 35px 0;
+}
+
+footer h3{
+    color: #fbccc9; 
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/*-------------------------------------------------------footer section close--------------------------*/ 
+
+
+
+
+
+/*------------------------------------------------media quary start-----------------------------------*/
+
+/*-----------mobile version---------------------*/
+@media(min-width:320px) and (max-width:576px){
+    header{
+        width: 100%;
+        float: left;
+        background: #fff;
+        padding: 30px 0;
+        border-bottom: 5px solid #e4e4e4;
+    }
+
+    .navbar img{
+        width:179px; 
+    }
+
+    .left-content h1 {
+        color: white;
+        font-weight: 500;
+        font-size: 29px;
+    }
+
+    .car-img img {
+        width: 250px;
+        margin-top: 16px;
+        margin-bottom: 20px;
+    }
+
+    .left-content p {
+        color: white;
+        font-size: 13px;
+        width: 280px;
+    }
+
+    .rect-img img {
+        margin-top: 3%;
+        width: 180px;
+        margin-left: 6%;
+        margin-bottom: 8%;
+    }
+
+    .last-btn {
+        color: white;
+        text-decoration: none;
+        margin-top: 0%;
+        display: inline-block;
+        font-size: 30px;
+        font-family: initial;
+    }
+
+    .last-btn:hover {
+     
+        color: white;
+        text-decoration: none;
+
+    }
+
+    footer h3 {
+        color: #fbccc9;
+        font-size: 11px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+/*-----------tab version---------------------*/
+@media(min-width:576.01px) and (max-width:768px){
+
+
+    header{
+        width: 100%;
+        float: left;
+        background: #fff;
+        padding: 30px 0;
+        border-bottom: 5px solid #e4e4e4;
+    }
+
+
+.navbar img{
+    width:234px; 
+}
+
+.left-content h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 34px;
+}
+
+.car-img img {
+    width: 400px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.left-content p {
+    color: white;
+    font-size: 13px;
+    width: 463px;
+    margin-top: 5%;
+}
+
+.rect-img img {
+    margin-top: 10%;
+    width: 250px;
+    margin-left: 14%;
+    margin-bottom: 8%;
+}
+
+.last-btn{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    font-family: initial;
+}
+
+.last-btn:hover{
+color: white;
+text-decoration: none;
+}
+
+footer h3 {
+    color: #fbccc9;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+}
+
+
+
+
+/*-----------medium version---------------------*/
+@media(min-width:768.01px) and (max-width:992px){
+
+    header{
+        width: 100%;
+        float: left;
+        background: #fff;
+        padding: 30px 0;
+        border-bottom: 5px solid #e4e4e4;
+    }
+
+
+.navbar img{
+    width:330px; 
+}
+
+.left-content h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.car-img img {
+    width: 400px;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+
+.left-content p {
+    color: white;
+    font-size: 13px;
+    width: 463px;
+    margin-top: 5%;
+    margin-bottom: 14%;
+}
+
+.rect-img img {
+    margin-top: 3%;
+    width: 257px;
+    margin-left: 12%;
+    margin-bottom: 8%;
+}
+
+.last-btn {
+    color: white;
+    text-decoration: none;
+    margin-top: 85%;
+    display: inline-block;
+    font-size: 30px;
+    font-family: initial;
+}
+
+.last-btn:hover{
+    color: white;
+    text-decoration: none;
+    }
+    
+
+footer h3 {
+    color: #fbccc9;
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+
+}
+
+
+
+
+/*-----------laptop version---------------------*/
+@media(min-width:992.01px) and (max-width:1200px){
+
+    .left-content p {
+        color: white;
+        font-size: 16px;
+        width: 556px;
+        margin-bottom: 7% !important;
+    }
+
+    .last-btn {
+        color: white;
+        text-decoration: none;
+        margin-top: 58% !important;
+        display: inline-block;
+        font-size: 30px;
+        font-family: initial;
+    }
+
+    .last-btn:hover{
+        color: white;
+        text-decoration: none;
+        }
+        
+    
+}
+/*-----------large device version---------------------*/
+@media(max-width:1200px){
+
+    .last-btn {
+        color: white;
+        text-decoration: none;
+        margin-top: 58% !important;
+        display: inline-block;
+        font-size: 30px;
+        font-family: initial;
+    }
+
+    .last-btn:hover{
+        color: white;
+        text-decoration: none;
+        }
+
+}
+
+/*-------------------------------------------------media quary close-----------------------------------*/

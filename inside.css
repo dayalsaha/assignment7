@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+
+/*------------------------------------------------header section start-----------------------------------*/
+
+header{
+    width: 100%;
+    float: left;
+    background: #fff;
+    padding: 15px 0;
+    border-bottom: 5px solid #e4e4e4;
+}
+
+.nav-link{
+    margin: 0 15px;
+    font-size: 17px;
+}
+
+.nav-link:hover{
+    color: #fafd17;
+
+}
+
+
+/*------------------------------------------------header section close-----------------------------------*/
+
+/*------------------------------------------------About section start-----------------------------------*/
+
+.about{
+    width: 100%;
+    float: left;
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background: #f6f6f6;
+}
+
+.content-left {
+    margin-bottom: 50px;
+    
+}
+
+.content-left h1 {
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.content-left p {
+    color: rgba(0,0,0,0.5);
+    width: 449px;
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.content-right p {
+    color: rgba(0,0,0,0.5);
+    width: 457px;
+    font-size: 15px;
+    margin-bottom: 25px;
+    margin-left: 11%;
+}
+
+.car-img {
+    margin-top: 4%;
+    width: 489px;
+    margin-bottom: 7%;
+}
+
+
+/*------------------------------------------------about section close-----------------------------------*/
+
+
+/*-------------------------------------------------------footer section start--------------------------*/ 
+
+footer{
+    float: left;
+    width: 100%;
+    background: #ef4035;
+    padding: 35px 0;
+}
+
+footer h3{
+    color: #fbccc9; 
+    font-size: 11px;
+    font-weight: 400;
+}
+
+/*-------------------------------------------------------footer section close--------------------------*/ 
+
+
+/*------------------------------------------------media quary start-----------------------------------*/
+
+/*-----------mobile version---------------------*/
+@media(min-width:320px) and (max-width:576px){
+
+    header{
+        width: 100%;
+        float: left;
+        background: #fff;
+        padding: 30px 0;
+        border-bottom: 5px solid #e4e4e4;
+    }
+
+    .navbar img{
+        width:179px; 
+    }
+
+    .content-left h1 {
+        font-size: 32px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    .content-left p {
+        color: rgba(0,0,0,0.5);
+        width: 288px;
+        font-size: 11px;
+        margin-bottom: 23px;
+    }
+
+    .car-img {
+        margin-top: 0%;
+        width: 200px;
+        margin-bottom: 5%;
+    }
+
+    .content-right p {
+        color: rgba(0,0,0,0.5);
+        width: 288px;
+        font-size: 11px;
+        margin-bottom: 15px;
+        margin-left: 0px;
+    }
+    
+    footer h3 {
+        font-size: 9px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+/*-----------tab version---------------------*/
+@media(min-width:576.01px) and (max-width:768px){
+
+    header{
+        width: 100%;
+        float: left;
+        background: #fff;
+        padding: 30px 0;
+        border-bottom: 5px solid #e4e4e4;
+    }
+
+
+.navbar img{
+    width:234px; 
+}
+
+.content-left h1 {
+    font-size: 57px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content-left p {
+    color: rgba(0,0,0,0.5);
+    width: 469px;
+    font-size: 18px;
+    margin-bottom: 23px;
+}
+
+.car-img {
+    margin-top: 0%;
+    width: 450px;
+    margin-bottom: 5%;
+}
+
+.content-right p {
+    color: rgba(0,0,0,0.5);
+    width: 469px;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+footer h3 {
+    font-size: 11px;
+    text-align: center;
+}
+
+}
+
+
+
+
+/*-----------medium version---------------------*/
+@media(min-width:768.01px) and (max-width:992px){
+
+    header{
+        width: 100%;
+        float: left;
+        background: #fff;
+        padding: 30px 0;
+        border-bottom: 5px solid #e4e4e4;
+    }
+
+
+.navbar img{
+    width:330px; 
+}
+
+.content-left h1 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.content-left p {
+    color: rgba(0,0,0,0.5);
+    width: 285px;
+    font-size: 13px;
+    margin-bottom: 23px;
+}
+
+.car-img {
+    margin-top: 0%;
+    width: 370px;
+    margin-bottom: 5%;
+}
+
+.content-right p {
+    color: rgba(0,0,0,0.5);
+    width:285px;
+    font-size: 13px;
+    margin-bottom: 23px;
+}
+
+footer h3 {
+    font-size: 11px;
+    text-align: center;
+}
+
+}
+
+
+
+
+/*-----------laptop version---------------------*/
+@media(min-width:992.01px) and (max-width:1200px){
+
+    .content-left h1 {
+        font-size: 50px;
+    
+    }
+
+    .content-left p {
+        color: rgba(0,0,0,0.5);
+        width: 364px;
+        font-size: 13px;
+        margin-bottom: 23px;
+    }
+    
+    .car-img {
+        margin-top: 0%;
+        width: 400px;
+        margin-bottom: 5%;
+    }
+    
+    .content-right p {
+        color: rgba(0,0,0,0.5);
+        width:364px;
+        font-size: 13px;
+        margin-bottom: 23px;
+    }
+    
+    footer h3 {
+        color: #fbccc9;
+        font-size: 11px;
+        font-weight: 400;
+       
+    }
+
+    
+}
+
+/*-------------------------------------------------media quary close-----------------------------------*/
